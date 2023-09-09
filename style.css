@@ -24,7 +24,7 @@ header{
     gap: 80px;
 }
 header h1{
-    animation-name: slideRight;
+    animation-name: slidedown;
     animation-duration: 1s ;
     animation-timing-function: ease-in-out;
     
@@ -39,7 +39,7 @@ header h1{
     animation-duration: 0.7s;
     animation-timing-function: ease-in-out;
     /* animation-direction: alternate;
-    animation-iteration-count: infinite; */
+     animation-iteration-count: infinite; */
     
 }
 .animationUp{
@@ -58,7 +58,7 @@ header h1{
         transform: translateY(95%);
         color: black;
         background-color: transparent;
-        color: transparent;
+        
     }
     100%{
         transform: translateY(0%);
@@ -148,7 +148,7 @@ header h1{
     margin: 0 auto;
 }
 
-@keyframes slideRight{
+@keyframes slidedown{
     0%{
         transform: translateY(-100%);
         color: black;

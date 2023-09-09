@@ -51,6 +51,7 @@ showData = ()=>{
 
     database.map((user)=>{
         let outputField = document.createElement("div")
+        
         outputField.classList.add("output-field")
 
         let nameElement = document.createElement("p")
@@ -74,7 +75,6 @@ showData = ()=>{
 }
 
 errorCheck = (x)=>{
-
     let headerh1 = document.getElementById("headerh1")
     headerh1.classList.add("animationUp")
     let header = document.getElementById("header")
@@ -90,6 +90,5 @@ errorCheck = (x)=>{
         headerh1.classList.remove("animationUp")
         
     }, 4000);
-
 
 }
